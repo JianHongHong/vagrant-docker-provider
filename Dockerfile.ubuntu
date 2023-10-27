@@ -1,5 +1,7 @@
-FROM ubuntu:jammy
-LABEL MAINTAINER="John Rofrano <rofrano@gmail.com>"
+FROM cruizba/ubuntu-dind:jammy-24.0.6
+# FROM ubuntu:jammy
+LABEL MAINTAINER="Lee Jian Hong <leejianhong18@hotmail.com>"
+#https://github.com/cruizba/ubuntu-dind
 
 ENV DEBIAN_FRONTEND noninteractive
 
